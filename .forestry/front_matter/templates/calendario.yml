@@ -3,8 +3,5 @@ label: Calendario
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: text
-  name: date
-  label: date
+  name: calendario
+  label: Calendario
