@@ -1,0 +1,18 @@
+<html>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper">
+		{{ partial "head.html" . }}
+
+		{{ with .Content }}{{ . }}{{ end }}
+
+		<div class="recent-posts section">
+			<h2 class="section-header">
+				Calendario
+			</h2>
+			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;src=dmljdG9ybG9wZXphcmVuYWxAZ21haWwuY29t&amp;src=NzU5NGtoa2FmY2huNHJtZDAxbDFybWFqNDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=OHIycjRvMXVtMzJiYWQ0czU5NHNjcmpyYWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=OTY1MjY3cmg3c2ticDQ0MnNmaGoxdWNuNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=a3R2a3ZqZnFhYnMwYTkxM29lZWVyNzFndmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Mzk5YjV1Zm1yNHBvZjkxZ2F2b3M2ZWw2aTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Zm1rOWhxYTMxYWVlNzNhbzgzbms0Y25rOW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cW9mdGU1NGxxZ3I1a2dzZWg5NzFkaTJyMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MGkzMGxoZ2kzZ2E2MDJoN2RwdnE0MXRkdWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmZqZzZnaWRqNmhrZWk0cGY4ajE3M2E0ZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4uc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%233F51B5&amp;color=%23795548&amp;color=%2333B679&amp;color=%23F4511E&amp;color=%23E67C73&amp;color=%237CB342&amp;color=%23795548&amp;color=%23D50000&amp;color=%23E4C441&amp;color=%23009688&amp;color=%23B39DDB&amp;color=%23A79B8E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		</div>
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>
