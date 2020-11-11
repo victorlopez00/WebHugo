@@ -11,14 +11,6 @@ summaryLength = 20
 theme = "ezhil"
 title = "Web de prueba"
 [[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
